@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head><style> body {
+background-color:cadetblue;
+}
+#content{
+width:90%;
+margin:auto;
+text-align:center;
+}
+
+form {
+font-size:1.5em;
+margin-left:5%;
+padding-top:5%;
+background-color: cornsilk;
+border:2px dotted #000;
+}
+input {
+margin-bottom:2%;
+font-size: 1em;
+}
+input#submit {
+border:4px solid yellow;
+border-radius: 50px 50px;
+text-align: center;
+background-color:chocolate;
+color:white;
+font-weight:bold;
+padding: 20px;
+}
+        </style>
+    </head>
+<body>
+    <div>
+        <form method="post" action ="https://idesstage2.bc.edu/class/results.php">
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+<br>
+Email:<br>
+    <input type="email" name="Email">
+<br>
+Ice Cream:<br>
+            <input type="radio" name="flavor" value="Vanilla" checked> Vanilla<br>
+            <input type="radio" name="flavor" value="Chocolate" checked> Chocolate<br>
+            <input type="radio" name="flavor" value="Strawberry" checked> Strawberry<br>
+            <input type="radio" name="flavor" value="Oreo" checked> Oreo<br>
+            <input type="radio" name="flavor" value="Chocolate mint" checked> Chocolate mint<br>
+            <input type="radio" name="flavor" value="Grapenut" checked> Grapenut
+<br>
+What do you want to do with your life:<br>
+           <textarea rows="4" cols="50">
+            </textarea>
+            <br>
+            <input type="submit" value="SUBMIT" id="sumbit">
+            <br>
+</form>
+            </div>
+        </body>
+    </html>
