@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head><style> body {
+font-size: 1.3em;
+background-color: beige;
+
+}
+content{
+width:90%;
+margin:auto;
+}
+
+h1 {
+text-align:center;
+}
+
+form {
+margin-left:5%;
+}
+input {
+margin-bottom:2%;
+}
+input#submit {
+display:block;
+background-color:#33ff99;
+font-weight:bold;
+padding: 20px;
+font-size: 1.5em;
+}
+
+select option {
+font-size: 1.75em;
+width: 150px;
+        } </style></head>
+<body>
+    <div>
+        <form method="post" action ="https://idesstage2.bc.edu/class/results.php">
+  Name:<br>
+  <input type="text" name="Name">
+  <br>
+Email:<br>
+    <input type="email" name="Email">
+            <br>
+Select Your Favorite Type Of Music:<br>
+             <input type="radio" name="Genre" value="Pop" checked> Pop<br>
+            <input type="radio" name="Genre" value="Classical" checked> Classical<br>
+            <input type="radio" name="Genre" value="Rock" checked> Rock<br>
+            <input type="radio" name="Genre" value="Folk" checked> Folk<br>
+            <input type="radio" name="Genre" value="Rap" checked> Rap<br>
+            <input type="radio" name="Genre" value="Other" checked> Other
+            <p>How often do you purchase CD's:</p>
+  <input type="radio" name="Time" value="Weekly"> Weekly<br>
+  <input type="radio" name="Time" value="A few per year"> A few per year<br>
+  <input type="radio" name="Time" value="monthly"> Monthly<br> 
+    <p>Select the locations you listen to music</p><select>
+  <option value="Home">Home</option>
+  <option value="Car">Car</option>
+  <option value="Gym">Gym</option>
+  <option value="Work">Work</option>
+</select>
+<br>
+        What role does music play in your life:<br>
+           <textarea rows="3" cols="50">
+            </textarea>
+            <br>
+            <input type="submit" value="Send Survey" id="sumbit">
+            <br>
+        </form></div>
+    </body>
+</html>
